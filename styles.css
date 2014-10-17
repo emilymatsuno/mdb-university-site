@@ -37,150 +37,150 @@
 }
 
 body {
-    font-family: "Neutra Text", Helvetica, Arial, serif;
-    font-size: 18px;
-    line-height: 28px;
-    font-weight: lighter;
+	font-family: "NeutraText-LightAlt", Helvetica, Arial, serif;
+	font-size: 18px;
+	line-height: 28px;
+	font-weight: 0;
 }
 /**Illiminates white margin around web page**/
 body, html {
-    margin:0;
-    padding:0
+	margin:0;
+	padding:0
 }
 header {
-    background: url("images/Student-Photo-2.jpg");
-    background-size: cover !important;
-    background-position: none;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    height: 650px;
+	background: url("images/Student-Photo-2.jpg");
+	background-size: cover !important;
+	background-position: none;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	height: 650px;
 }
 h1 {
-    font-family: "Neutra Text", Helvetica, Arial, serif;
-    text-decoration: none;
-    font-weight: bold;
-    margin-top: 40px;
+	font-family: "Neutra Text";
+	text-decoration: none;
+	font-weight: bold;
+	margin-top: 40px;
 }
 h2 {
-    font-family: "Neutra Text", Helvetica, Arial, serif;
-    font-size: 24px;
-    text-decoration: none;
-    font-weight: normal;
+	font-family: "Neutra Text";
+	font-size: 24px;
+	text-decoration: none;
+	font-weight: normal;
 }
 .container {
-    width: 960px;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: auto;
-    padding: 0px 0px 0px 0px;
-    border: 0px solid red;
+	width: 960px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: auto;
+	padding: 0px 0px 0px 0px;
+	border: 0px solid red;
 }
 .right {
-    width: 100%;
-    height: 200px;
-    background-color: #6ca439;
-    padding-top: 20px;
+	width: 100%;
+	height: 200px;
+	background-color: #6ca439;
+	padding-top: 20px;
 }
 /**NAVIGATION**/
 .nav {
-    position: fixed;
+	position: fixed;
 }
 .nav-background {
-    background-color: rgba(255,255,255,0.95);
-    width: 100%;
-    height: 80px;
-    position: fixed;
+	background-color: rgba(255,255,255,0.95);
+	width: 100%;
+	height: 80px;
+	position: fixed;
 }
 .home-link {
-    display: block;
-    float: left;
-    margin-top: 20px;
+	display: block;
+	float: left;
+	margin-top: 20px;
 }
 .nav-links{
-    float: right;
-    margin-top: 40px;
+	float: right;
+	margin-top: 40px;
 }
 .nav-links a {
-    font-family: "Neutra Text", Helvetica, Arial, serif;
-    font-size: 16px;
-    color: #494747;
-    text-decoration: none;
-    margin-left: 20px;
+	font-family: "Neutra Text";
+	font-size: 16px;
+	color: #494747;
+	text-decoration: none;
+	margin-left: 20px;
 }
 .nav-links a:hover {
-    border-bottom: 2px solid #6ca439;
-    padding-bottom: 5px;
+	border-bottom: 2px solid #6ca439;
+	padding-bottom: 5px;
 }
 /**CONTENT**/
 .one-column {
-    width: 450px;
-    border: 0px solid blue;
-    margin-bottom: 60px;
-    margin-top: 0px;
-    margin-right: 60px;
-    float: left;
+	width: 450px;
+	border: 0px solid blue;
+	margin-bottom: 60px;
+	margin-top: 0px;
+	margin-right: 60px;
+	float: left;
 }
 .one-column:last-child {
-    margin-right: 0;
+	margin-right: 0;
 }
 .intro-section-background {
-    width: 100%;
-    margin-bottom: 50px;
-    height: 270px;
-    border: 0px solid black;
-    background-color: #6ca439;
+	width: 100%;
+	margin-bottom: 50px;
+	height: 270px;
+	border: 0px solid black;
+	background-color: #6ca439;
 }
 .certification-section-background {
-    width: 100%;
-    height: 350px;
-    margin-bottom: 40px;
-    background-color: #8bb661;
-    background: rgba(198,218,174,0.5);
+	width: 100%;
+	height: 350px;
+	margin-bottom: 40px;
+	background-color: #8bb661;
+	background: rgba(198,218,174,0.5);
 }
 .text-section {
-    width: 960px;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 90px;
-    margin-bottom: 30px;
-    border: 0px solid white;
+	width: 960px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 90px;
+	margin-bottom: 30px;
+	border: 0px solid white;
 }
 /**COURSES**/
 #courses {
-    list-style-type: none;
+	list-style-type: none;
 }
 ul li {
-    width: 500px;
-    line-height: 10px;
+	width: 500px;
+	line-height: 10px;
 }
 ul li a{
-    text-decoration: none;
-    font-family: "Neutra Text", Helvetica, Arial, serif;
-    color: #6ca439;
+	text-decoration: none;
+	font-family: "Neutra Text";
+	color: #6ca439;
 }
 ul li a:hover {
-    text-decoration: none;
-    color: #312F2E;
+	text-decoration: none;
+	color: #312F2E;
 }
 /**BUTTON STYLE**/
 .cta-button a {
-    font-family: "Neutra Text", Helvetica, Arial, serif;
-    font-size: 16px;
-    letter-spacing: 0.4px;
-    color: #6ca439;
-    background-color: white;
-    border: 1px solid #6ca439;
-    border-radius: 8px;
-    text-transform: none;
-    text-decoration: none;
-    padding: 17px 20px 15px 20px;
-    transition: all 0.25s ease;
+	font-family: "Neutra Text";
+	font-size: 16px;
+	letter-spacing: 0.4px;
+	color: #6ca439;
+	background-color: white;
+	border: 1px solid #6ca439;
+	border-radius: 8px;
+	text-transform: none;
+	text-decoration: none;
+	padding: 17px 20px 15px 20px;
+	transition: all 0.25s ease;
 }
 .cta-button a:hover {
-    border: 1px solid #6ca439;
-    background-color: #6ca439;
-    color: #ffffff;
-    letter-spacing: 0.4px;
+	border: 1px solid #6ca439;
+	background-color: #6ca439;
+	color: #ffffff;
+	letter-spacing: 0.4px;
 }
 /**IMAGE**/
 .img {
@@ -192,23 +192,23 @@ ul li a:hover {
   overflow: hidden;
 }
 .grow img {
-    width: 150px;
-    -webkit-transition: all 1s ease;
+	width: 150px;
+	-webkit-transition: all 1s ease;
      -moz-transition: all 1s ease;
        -o-transition: all 1s ease;
       -ms-transition: all 1s ease;
           transition: all 1s ease;
 }
 .grow img:hover {
-    width: 158px;
+	width: 158px;
 }
 /**FOOTER**/
 .footer {
-    font-family: "Neutra Text", Helvetica, Arial, serif;
-    font-weight: lighter;
-    font-size: 10pt;
-    color: gray;
-    padding: 70px 0px 50px 00px;
-    background-color: white;
-    background-position: center;
+	font-family: "Neutra Text";
+	font-weight: lighter;
+	font-size: 10pt;
+	color: gray;
+	padding: 70px 0px 50px 00px;
+	background-color: white;
+	background-position: center;
 }
