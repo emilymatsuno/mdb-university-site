@@ -37,7 +37,8 @@
 }
 
 body {
-	font-family: "NeutraText-LightAlt", Helvetica, Arial, serif;
+	font-family: "Neutra Text", Helvetica, Arial, serif;
+    font-weight: lighter;
 	font-size: 18px;
 	line-height: 28px;
 	font-weight: 0;
@@ -56,13 +57,13 @@ header {
 	height: 650px;
 }
 h1 {
-	font-family: "Neutra Text";
+	font-family: "Neutra Text", Helvetica, Arial, serif;
 	text-decoration: none;
 	font-weight: bold;
 	margin-top: 40px;
 }
 h2 {
-	font-family: "Neutra Text";
+	font-family: "Neutra Text", Helvetica, Arial, serif;
 	font-size: 24px;
 	text-decoration: none;
 	font-weight: normal;
@@ -101,7 +102,7 @@ h2 {
 	margin-top: 40px;
 }
 .nav-links a {
-	font-family: "Neutra Text";
+	font-family: "Neutra Text", Helvetica, Arial, serif;
 	font-size: 16px;
 	color: #494747;
 	text-decoration: none;
@@ -155,7 +156,7 @@ ul li {
 }
 ul li a{
 	text-decoration: none;
-	font-family: "Neutra Text";
+	font-family: "Neutra Text", Helvetica, Arial, serif;
 	color: #6ca439;
 }
 ul li a:hover {
@@ -164,7 +165,7 @@ ul li a:hover {
 }
 /**BUTTON STYLE**/
 .cta-button a {
-	font-family: "Neutra Text";
+	font-family: "Neutra Text", Helvetica, Arial, serif;
 	font-size: 16px;
 	letter-spacing: 0.4px;
 	color: #6ca439;
@@ -204,7 +205,7 @@ ul li a:hover {
 }
 /**FOOTER**/
 .footer {
-	font-family: "Neutra Text";
+	font-family: "Neutra Text", Helvetica, Arial, serif;
 	font-weight: lighter;
 	font-size: 10pt;
 	color: gray;
